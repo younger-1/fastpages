@@ -31,6 +31,22 @@
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://younger-1.github.io/fastpages/feed.xml" title="fastpages" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
 
 <script>
 function wrap_img(fn) {
@@ -105,6 +121,9 @@ window.onload = wrap_img;
   
       <h3 id ="markdown"><i class="fas fa-tags category-tags-icon"></i></i> markdown</h3>
       <a name="markdown"></a>
+      <article class="archive-item">
+        <p class="post-meta post-meta-title"><a class="page-meta" href="/fastpages/markdown/2020/08/17/VRP-Note.html">An Example Markdown Post</a>  • Aug 17, 2020</p>
+      </article>
       <article class="archive-item">
         <p class="post-meta post-meta-title"><a class="page-meta" href="/fastpages/markdown/2020/01/14/test-markdown-post.html">An Example Markdown Post</a>  • Jan 14, 2020</p>
       </article>
